@@ -1,0 +1,95 @@
+basic:
+    name: 'https://jkc-media.nl'
+    environments:
+        production: 'https://jkc-media.nl'
+        staging: ''
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: null
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /over-ons
+        - /nieuws
+        - /reviews
+        - /projecten
+        - /vacatures
+        - /contact
+        - /en
+        - /aanpak
+        - /doelen-behalen
+        - /doelen-behalen/leadgeneratie
+        - /doelen-behalen/kandidaten-werven
+        - /doelen-behalen/meer-bestellingen
+        - /diensten/design
+        - /diensten/design/branding
+        - /diensten/design/employer-branding
+        - /diensten/design/ui-ux-design
+        - /diensten/design/rebranding
+        - /diensten/development
+        - /diensten/development/website-ontwikkeling
+        - /diensten/development/webshop-ontwikkeling
+        - /diensten/development/onderhoud
+        - /diensten/development/consultancy
+        - /api-koppelingen-voor-je-website
+        - /diensten/development/bedrijfsprocessen-automatiseren
+        - /diensten/development/continuous-webdevelopment
+        - /diensten/marketing
+        - /diensten/marketing/zoekmachine-optimalisatie-seo
+        - /diensten/marketing/google-ads-sea
+        - /diensten/marketing/social-media-ads
+        - /diensten/marketing/copywriting
+        - /diensten/marketing/social-media-beheer
+        - /diensten/marketing/email-marketing
+        - /offerte-aanvragen
+        - /vrijblijvende-offerte
+        - /diensten
+        - /portfolio
+        - /projecten/sag
+        - /projecten/next-level-makers
+        - /projecten/deedocs-automatisch-waiver-documenten-genereren-voor-30-landen
+        - /projecten/klantkennis-optimaliseren-met-het-cheqm-platform-van-cbmk
+        - /projecten/nieuwe-verbeterde-pozob-website-met-nieuwe-branding-voor-2025
+        - /projecten/kendem
+        - /verbeter-de-snelheid-van-je-website-12-wordpress-tips
+        - /privacy-policy
+        - /veelgestelde-vragen
+        - /diensten/website-laten-ontwikkelen
+        - /diensten/webshop-laten-ontwikkelen
+        - /diensten/huisstijl-laten-maken
+        - /diensten/content-laten-schrijven
+        - /diensten/zoekmachine-optimalisatie-seo
+        - /cookieverklaring
+    monitoring:
+        days: {  }
+        type: daily
+        schedule_time: '01:00 PM'
+        schedule_time_zone: Europe/Amsterdam
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
