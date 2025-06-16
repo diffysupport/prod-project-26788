@@ -75,7 +75,7 @@ advanced:
     scroll: true
     headers: {  }
     cookies: ''
-    custom_js: ''
+    custom_js: "jQuery('.owl-carousel').trigger('stop.owl.autoplay');\njQuery('.owl-carousel').trigger('to.owl.carousel', 0, 0);"
     custom_css: ''
     mock_content: {  }
     sensitivity: 15
