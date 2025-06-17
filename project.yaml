@@ -70,7 +70,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: "#cmplz-cookiebanner-container\n.op-is-open-shortcode"
+    remove: "#cmplz-cookiebanner-container\n.op-is-open-shortcode\n.joinchat"
     delay: 15
     scroll: true
     headers: {  }
